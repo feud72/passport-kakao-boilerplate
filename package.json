@@ -1,0 +1,24 @@
+{
+  "name": "passport-kakao-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for passport-kakao & jwt authentication",
+  "main": "index.js",
+  "repository": "https://github.com/feud72/passport-kakao-boilerplate",
+  "author": "feud72 <feud72@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.29",
+    "passport": "^0.4.1",
+    "passport-kakao": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "nodemon": "^2.0.4"
+  }
+}
